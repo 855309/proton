@@ -37,15 +37,7 @@ write a
 ## Expressions
 
 ### IF
-Keywords for if:
-
-**is**
-
-**not**
-
-**<**
-
-**>**
+A classic if expression.
 
 Examples:
 ```c
