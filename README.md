@@ -1,7 +1,7 @@
 <div align="center"><img src="protonlogo.png" width=300>
 
 # proton
-A programming language written entirely in C++.</div>
+A programming language that is written from scratch.</div>
 
 ## Filetype
 Default source file extension: ``.pfc``.
@@ -110,6 +110,51 @@ write a
 Example:
 ```c
 write "hello world."
+```
+
+## Points
+A point is like a function but it's not. It isn't takes arguments. In's just a "point" to go.
+
+(points can be in header files.)
+
+Example:
+```c
+meminit
+
+point test
+    write "hi"
+endpoint
+
+go test
+
+memdump
+exit
+```
+
+Example 2 (with a header file):
+
+header.pfh:
+```c
+meminit
+
+point test
+    write "Enter some text: "
+    assign input read
+    write "You entered: "
+    write input
+endpoint
+```
+
+source.pfc:
+```c
+eat "header.pfh"
+
+go test
+write end
+write "done."
+
+memdump
+exit
 ```
 
 ## Other
