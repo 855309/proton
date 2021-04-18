@@ -6,6 +6,7 @@ A programming language that is written from scratch.
 
 ## Filetype
 Default source file extension: ``.pfc``.
+
 Default header file extension: ``.pfh``.
 
 ## Syntax
