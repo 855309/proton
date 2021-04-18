@@ -105,7 +105,7 @@ write "hello world."
 ```
 
 ## Points
-A point is like a function but it's not. It isn't takes arguments. In's just a "point" to go.
+A point is like a function but it's not. It isn't takes arguments. It's just a "point" to go.
 
 (points can be in header files.)
 
