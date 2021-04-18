@@ -688,11 +688,11 @@ int executeLine(string line)
 		{
 			try
 			{
-				string exp = splitstrcount(line, ' ', 1)[2];
+				string exp = splitstrcount(line, ' ', 2)[2];
 
 				int line = getExpIntVal(exp);
 
-				lineindex = line;
+				lineindex = line - 1;
 			}
 			catch (const std::exception&)
 			{
