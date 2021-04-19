@@ -1,9 +1,15 @@
 <div align="center"><img src="protonlogo.png" width=300>
 
 # proton
-A programming language written entirely in C++.</div>
+A programming language written entirely in C++.
 
-## Filetype
+EN <u>[TR](README-TR.md)</u>
+</div>
+
+# License
+[MIT License](LICENSE)
+
+# Filetype
 Default source file extension: ``.pfc``.
 
 Default header file extension: ``.pfh``.
@@ -177,6 +183,18 @@ Initializes the memory with the base variables. like;
 
 ### memdump
 Deletes all variables from memory.
+
+### Convert
+Converts a variable type to another.
+
+```c
+assign a "15"
+
+convert int a
+or
+convert double a
+```
+(in proton main integer type is **double**)
 
 ## Contact
 Discord: **fikret.#3849**
