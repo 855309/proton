@@ -7,7 +7,7 @@ EN <u>[TR](README-TR.md)</u>
 </div>
 
 # License
-[MIT License](LICENSE)
+[MIT License](LICENSE.md)
 
 # Filetype
 Default source file extension: ``.pfc``.
