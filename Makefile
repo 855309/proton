@@ -9,8 +9,8 @@ $(TARGET): $(OBJ_FILES)
 	g++ -o $@ $^
 
 $(OBJ_DIR)/%.o: $(SRC_DIR)/%.cpp
-	mkdir -p $(OBJ_DIR)
-	mkdir -p $(BUILD_DIR)
+	[-d $(OBJ_DIR)] || mkdir $(OBJ_DIR)
+	[-d $(BUILD_DIR)] || mkdir $(BUILD_DIR)
 	g++ -c -o $@ $<
 
 clean:
