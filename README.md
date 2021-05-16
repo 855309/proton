@@ -2,7 +2,8 @@
 
 # proton
 A programming language written entirely in C++.
-(written in 4 hours in a challenge :yum:)
+
+(written in 4 hours in a coding challenge :yum:)
 
 EN <u>[TR](README-TR.md)</u>
 </div>
