@@ -105,7 +105,7 @@ write a
 ```
 
 ### write
-**write**: writes a output to the STDIN.
+**write**: writes a output to the STDOUT.
 
 Example:
 ```c
