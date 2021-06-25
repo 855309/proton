@@ -19,7 +19,7 @@ Default header file extension: ``.pfh``.
 # Syntax
 
 ## Importing header files
-You can import header files with **eat** keyword. nom nom
+You can import header files with **eat** keyword.
 
 ```c
 eat "header.pfh"
