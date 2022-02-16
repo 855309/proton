@@ -195,6 +195,6 @@ convert double a
 (in proton main integer type is **double**)
 
 ## Contact
-Discord: **fikret.#3849**
+Discord: **85530#7651**
 
-E-mail: fikretuwu@gmail.com
+E-mail: 855309@protonmail.com
